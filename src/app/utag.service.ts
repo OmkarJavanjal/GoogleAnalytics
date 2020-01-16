@@ -63,7 +63,7 @@ export class TealiumUtagService {
      */
     this.config ={ 
       account:'test-tealium-vj', 
-      profile : 'abhinay-poc' ,
+      profile : 'omkar-poc' ,
       environment : env,
       locationurl:this.locationurl.path()}
     if ( this.config.account !== undefined && this.config.profile !== undefined && this.config.environment !== undefined ) {
